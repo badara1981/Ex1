@@ -193,4 +193,175 @@ print(math.floor(12.2/3))
 
 a = 3
 b = 4
+x = 12.2
+y = 3
+print(math.floor(12.2/3))
+
+
+a = 3
+b = 4
 print(math.pow(3,4))
+
+
+
+#
+n = 300 
+m = 400
+
+if n > m: 
+    print("n is less than m")
+else: 
+    print("m is more than n")
+         
+
+a = 30
+b = 39
+c = 45
+if a < b:
+    if  b > c:
+         print("a is less than b")
+    else:
+        print("b is less than c")
+else:
+    print("a is greater than b")
+    
+x = 12.2
+y = 3
+print(math.floor(12.2/3))
+
+
+a = 3
+b = 4
+print(math.pow(3,4))
+
+
+
+#
+n = 300 
+m = 400
+
+if n > m: 
+    print("n is less than m")
+else: 
+    print("m is more than n")
+         
+
+a = 30
+b = 39
+c = 45
+if a < b:
+    if  b > c:
+         print("a is less than b")
+    else:
+        print("b is less than c")
+else:
+    print("a is greater than b")
+    
+   # 
+    x = 50
+    y = 100
+    print((x, y))
+
+   # 
+    x = 50
+    y = 100
+    print((x, y))
+
+print(math.pow(3,4))
+
+
+
+#
+n = 300 
+m = 400
+
+if n > m: 
+    print("n is less than m")
+else: 
+    print("m is more than n")
+         
+
+a = 30
+b = 39
+c = 45
+if a < b:
+    if  b > c:
+         print("a is less than b")
+    else:
+        print("b is less than c")
+else:
+    print("a is greater than b")
+    
+   # 
+    x = 50
+    y = 100
+    print((x, y))
+
+#
+for i in range(3):
+    print(i)
+    for i in range(3,2,8):
+        print(*range(3,2,8))
+
+    #
+    x = range(4,2,10)
+    for n in x:
+        print(n)
+
+ 
+x = range(2, 8, 2)
+for n in x:
+  print(n)
+
+num = int(input("Enter a Number 63:"))
+if num % 2 == 0:
+  print(num , "is even")
+else:
+  print(num , "is odd")
+
+  num = int(input("Enter a number 63: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
+
+num  = int(input("please Enter the Max number 56:"))
+for number in range(1, num+1):
+    if(number % 2 ==0):
+        print("{0}is Even".format(number))
+       ## 
+for fizzbuzz in range(1, 101):
+    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+        print("fizzbuzz")
+        
+    elif fizzbuzz % 3 == 0:
+        print("fizz")
+        
+    elif fizzbuzz % 5 == 0:
+        print("buzz")
+        
+    print(fizzbuzz)
+
+
+#
+
+for index in range(1000,2000):
+    index +=1
+    if index % 5 == 0 and index % 7 == 0:
+        print(index)
+
+for i in range(2, 6):
+
+    print(i)
+    #
+
+for x in range(10):
+    pass
+
+numbers  =  range(6)
+numbers_list = list(numbers)
+print(numbers_list)
+
+numbers = range(10)
+numbers = numbers(numbers)
+print(numbers)

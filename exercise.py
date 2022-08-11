@@ -32,13 +32,19 @@ print(H)
 
 
 a = 123
-b = isinstance(a, int)
+b = isinstance(a,int)
 print(a,b)
 
 c = 458
 d = isinstance(c,int)
 print(c,d)
+e = 456
+f = isinstance(e, int)
+print(c,d)
 
+c = 456
+d = isinstance(a, int)
+print(c, d)
 
 a = 42.23
 b = isinstance(a, float)
@@ -125,3 +131,66 @@ c = "We are going to Munich"
 d = float
 e = isinstance(c,d)
 print ("is",a,"in the instance of float", e )
+
+###
+x = 5
+y = 3
+
+print(x - y)
+
+x = 45
+y = 30
+print(x -y)
+
+
+
+x = 5
+y = 3
+
+print(x - y)
+
+x = 45
+y = 30
+print(x -y)
+
+
+
+x = 43
+y = 56
+print(x -y)
+
+x = 4
+y = 4
+print(x * y)
+
+
+
+x = 4
+y = 5
+print(x /y )
+
+
+a = 12
+b = 5
+print(a % b) 
+
+
+import math
+x = 89
+y = 5
+print(math.floor(89/5))
+
+x = 89
+y = 8
+print(math.ceil(89/5))
+
+12.2 // 3 
+
+x = 12.2
+y = 3
+print(math.floor(12.2/3))
+
+
+a = 3
+b = 4
+print(math.pow(3,4))

@@ -175,6 +175,7 @@ b = 5
 print(a % b) 
 
 
+from calendar import month_name
 import math
 x = 89
 y = 5
@@ -361,7 +362,69 @@ for x in range(10):
 numbers  =  range(6)
 numbers_list = list(numbers)
 print(numbers_list)
+  #
+   # type()
+prime_numbers = [45, 78, 3, 11]
+result = type(prime_numbers)
+print(result)
 
-numbers = range(10)
-numbers = numbers(numbers)
-print(numbers)
+str1 = "Hello"
+str2 = "World"
+str3 = str1 + " " + str2
+print(str3)
+ 
+
+# Exercise 5
+
+# do exercise here
+# upload to github for portfolio
+# thank me later when your git graph is as green as the python money u gonna earn
+
+# TASK 1
+
+
+
+
+
+
+
+
+
+
+#TASK 2
+#List of months: January, February, March, , May, June, July, August, September, October, November, December
+#Input the name of Month: May
+#Number of days: 31 days 
+
+
+print("list of months are : January, February, March, May, June, July, August, September, October, November, December")  
+month=input("Enter the month may : ")
+if  month== "may": 
+    print("Its is 31Days")
+elif month in("April", "June", "September", "November"):
+    print("Its is  30days")
+elif month_name in("January","March","May","July","August","December"):
+    print("Its is  31 Days")
+
+else: 
+    
+   print("Invalid  Entry") 
+	#
+
+print("List of months: January, February, March, April, May, June, July, August, September, October, November, December")
+month_name = input("Input the name of Month: ")
+
+if month_name == "February":
+	print("No. of days: 28/29 days")
+elif month_name in ("April", "June", "September", "November"):
+	print("No. of days: 30 days")
+elif month_name in ("January", "March", "May", "July", "August", "October", "December"):
+	print("No. of days: 31 day")
+else:
+	print("Wrong month name") 
+   
+
+
+
+	
+	

@@ -382,39 +382,43 @@ print(str3)
 
 # TASK 1
 
+numberOne = int(input("please enter me the first number "))
+numberTwo = int(input("please enter me the second number ")) 
+
+if numberOne >  numberTwo:
+  print(numberOne ,"Is the greater")
+
+elif numberTwo >  numberOne:
+    print(numberTwo, "Is the greatest!")
+
+else:
+ print("Both are equal!")
+ 
+ while numberOne != "quit !":
+    
+    numberOne = input("please enter your first number to compare, or type quit:")
+    numberTwo = input("please enter your second number to compare:")
 
 
-
-
-
-
+ if numberOne > numberTwo:
+  print(" numberOne is the biggest !")
+ 
+ elif numberTwo > numberOne: 
+    print("numberTwo is the biggest !") 
+ else:
+    print("Both are equal !")
 
 
 
 #TASK 2
 #List of months: January, February, March, , May, June, July, August, September, October, November, December
 #Input the name of Month: May
-#Number of days: 31 days 
-
-
-print("list of months are : January, February, March, May, June, July, August, September, October, November, December")  
-month=input("Enter the month may : ")
-if  month== "may": 
-    print("Its is 31Days")
-elif month in("April", "June", "September", "November"):
-    print("Its is  30days")
-elif month_name in("January","March","May","July","August","December"):
-    print("Its is  31 Days")
-
-else: 
-    
-   print("Invalid  Entry") 
-	#
+#Number of days: 31 days #
 
 print("List of months: January, February, March, April, May, June, July, August, September, October, November, December")
 month_name = input("Input the name of Month: ")
 
-if month_name == "February":
+if month_name == "may":
 	print("No. of days: 28/29 days")
 elif month_name in ("April", "June", "September", "November"):
 	print("No. of days: 30 days")

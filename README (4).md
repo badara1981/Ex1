@@ -1,6 +1,21 @@
 # Python Introduction
 
-## Comparison and logical operators
+## 
+
+In this exercise, we will focus on the usage of the comparison and logical operators, including:  
+ - equal operator `==`,
+ - not equal operator `!=`,
+ - greater than operator `>`,
+ - less than operator `<`,
+ - greater than or equal to operator `>=`,
+ - less than or equal to operator `<=`,
+ - `and`, `or`, `not` logical operators, 
+ - using `None`.
+
+## 
+
+
+## 
 
 In this exercise, we will focus on the usage of the comparison and logical operators, including:  
  - equal operator `==`,
@@ -20,10 +35,17 @@ In this exercise, we will focus on the usage of the comparison and logical opera
 
 ### :heavy_plus_sign: Task 1 - comparison operators
 
+Your task is to write a program which asks the user three times about two integer numbers to compare
+## Tasks
+
+### 
+
+### :heavy_plus_sign: Task 1 - comparison operators
+
 Your task is to write a program which asks the user three times about two integer numbers to compare. 
 >Hint: Use `while` loop to perform the same operation more than once!  
 
-Use both comparison and logical operators, for example use logical comparison between two or more comparion operators:  
+Use both comparison and logical operators, for example use logical comparison between two or more comparison operators:  
 >Example: 
 ```python
 result = None
@@ -66,3 +88,5 @@ List of months: January, February, March, April, May, June, July, August, Septem
 Input the name of Month: May
 Number of days: 31 days
 ```
+
+"April", "June", "September", "November"

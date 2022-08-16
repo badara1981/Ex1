@@ -17,9 +17,7 @@ In this exercise, we will once more focus on the usage of the conditional statem
 
 ### :heavy_plus_sign: Task 1 - calculate sum
 
-Your task is to write a Python program to calculate the sum of three integers given (prompted) Your task is to write a Python program to calculate the sum of three integers given (prompted) by user.  
-If the values are equal then calculate triple value of their sum.  
-Print out an appropriate message to the userby user.  
+Your task is to write a Python program to calculate the sum of three integers given (prompted) by user.  
 If the values are equal then calculate triple value of their sum.  
 Print out an appropriate message to the user.
 
@@ -43,7 +41,7 @@ The triple sum is:  45
 
 ### :heavy_plus_sign: Task 2 - get the difference
 
-Your task is to write a Python program to get the difference between a two given numbers (prompted by user).  
+Your task is to write a Python program to get the difference between a two given numbers prompted by user.  
 If the first number is greater than second then calculate double difference between numbers.  
 Otherwise calculate the **absolute** difference between numbers.  
 Print out an appropriate message to the user.

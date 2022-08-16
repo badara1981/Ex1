@@ -428,15 +428,18 @@ else:
 	print("Wrong month name") 
    
 # Ex5
+# task 1 
 
 def sum(num1, num2, num3):
     if num1 == num2 == num3:
         return(num1 + num2 + num3) * 3
     else:
         return num1 + num2 + num3
+        
         print(sum(3, 4, 5))
 
-#Task 11
+#Task 1 # II
+
 
 def sum(num1, num2, num3):
     if num1 == num2 == num3:
@@ -444,4 +447,15 @@ def sum(num1, num2, num3):
     else:
             return num1 + num2 + num3
 
+    
+print(sum(3,4,5))
 print(sum(5,5,5))
+
+# Ex 5 Task 2
+
+number = int(input("number ="))
+if number < 0:
+    print(-number)
+else:
+    print("number")
+     

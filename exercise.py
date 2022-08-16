@@ -427,8 +427,21 @@ elif month_name in ("January", "March", "May", "July", "August", "October", "Dec
 else:
 	print("Wrong month name") 
    
+# Ex5
 
+def sum(num1, num2, num3):
+    if num1 == num2 == num3:
+        return(num1 + num2 + num3) * 3
+    else:
+        return num1 + num2 + num3
+        print(sum(3, 4, 5))
 
+#Task 11
 
-	
-	
+def sum(num1, num2, num3):
+    if num1 == num2 == num3:
+        return (num1 + num2 + num3) * 3
+    else:
+            return num1 + num2 + num3
+
+print(sum(5,5,5))

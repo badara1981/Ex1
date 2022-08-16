@@ -62,7 +62,9 @@ Enter second number: 5432
 Numbers are not equal
 Second number is greater than first number
 Second number is greater than or equal to first number
-Both numbers are big!
+Both numbers are big!while condition:
+   3
+
 big_numbers is set to  True
 
 Enter first number: 23

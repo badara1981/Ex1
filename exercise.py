@@ -475,3 +475,17 @@ else:
     diff = num2 - num1
 
 # print difference value
+
+
+area = math.pi 
+r = float(input("Enter the Radius of the Circle:-"))
+area = 3.14 * r * r
+print("Area of the circle = ", area)
+
+import math
+r = float(input("Enter the Radius:-"))
+area = math.pi * r * r
+print("Area of the circle =", area)
+
+
+# Task 5

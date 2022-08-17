@@ -459,3 +459,19 @@ if number < 0:
 else:
     print("number")
      
+     # task
+
+     # Python program to find difference between two numbers
+
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# num1 is greater than num2
+if num1 > num2:
+    diff = num1 - num2
+# num1 is less than num2
+else:
+    diff = num2 - num1
+
+# print difference value
